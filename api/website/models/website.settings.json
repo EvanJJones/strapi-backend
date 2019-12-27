@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "Website"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "URL": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "websites"
+}
